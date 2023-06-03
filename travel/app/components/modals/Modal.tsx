@@ -124,7 +124,7 @@ const Modal: React.FC<ModalProps> = ({
                 relative
                 border-b-[1px]">
 
-                                <Button onClick={handleClose} className=" p-1
+                                <button onClick={handleClose} className=" p-1
                     border-0 
                     hover:opacity-70
                     transition
@@ -132,7 +132,7 @@ const Modal: React.FC<ModalProps> = ({
                     left-9">
 
                                     <IoMdClose size={18} />
-                                </Button>
+                                </button>
 
                                 <div className="text-lg font-semibold">
                                     {title}
@@ -149,7 +149,7 @@ const Modal: React.FC<ModalProps> = ({
                     flex-row 
                     items-center 
                     gap-4 
-                    w-full"><Button /></div>
+                    w-full"><Button label="My Button" /></div>
                             </div>
 
 
