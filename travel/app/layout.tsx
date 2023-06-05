@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar'
 import './globals.css'
 import { Inter, Nunito } from 'next/font/google'
 import ToasterProvider from './providers/ToasterProvider'
+import LoginModal from './components/modals/LoginModal'
 
 // const inter = Inter({ subsets: ['latin'] })
 const font = Nunito({ subsets: ['latin'] })
@@ -24,6 +25,7 @@ export default function RootLayout({
         <ClientOnly>
           <ToasterProvider />
           {/* <Modal actionLabel='Submit' title='Welcome' isOpen /> */}
+          <LoginModal />
           <RegisterModal />
           <Navbar />
         </ClientOnly>
