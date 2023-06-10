@@ -4,7 +4,6 @@ import Select from 'react-select'
 
 import useCountries from '@/app/hooks/useCountries';
 
-
 export type CountrySelectValue = {
     flag: string;
     label: string;
@@ -23,6 +22,7 @@ const CountrySelect: React.FC<CountrySelectProps> = ({
     onChange
 }) => {
     const { getAll } = useCountries();
+
     return (
         <div>
             <Select
@@ -33,7 +33,7 @@ const CountrySelect: React.FC<CountrySelectProps> = ({
                 onChange={(value) => onChange(value as CountrySelectValue)}
                 formatOptionLabel={(option: any) => (
                     <div className="
-                        flex flex-row items-center gap-3">
+          flex flex-row items-center gap-3">
                         <div>{option.flag}</div>
                         <div>
                             {option.label},
@@ -58,7 +58,6 @@ const CountrySelect: React.FC<CountrySelectProps> = ({
                     }
                 })}
             />
-
         </div>
     );
 }
