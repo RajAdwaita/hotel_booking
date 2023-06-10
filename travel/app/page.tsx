@@ -1,3 +1,5 @@
+
+
 import Image from 'next/image'
 import ClientOnly from './components/ClientOnly'
 import Container from './components/Container'
@@ -9,7 +11,7 @@ import getCurrentUser from './actions/getCurrentUser';
 export default async function Home() {
   // const isEmpty = true;
   const listings = await getListings();
-  const currentUser = getCurrentUser();
+  const currentUser = await getCurrentUser();
 
   if (listings.length === 0) {
     return (
@@ -37,7 +39,7 @@ export default async function Home() {
           2xl:grid-cols-6
           gap-8
         '>
-          {listings.map((listing: any) => {
+          {listings.map((listing) => {
             return (
               <ListingCard
                 currentUser={currentUser}

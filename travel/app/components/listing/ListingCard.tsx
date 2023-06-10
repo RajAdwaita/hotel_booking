@@ -8,23 +8,23 @@ import { format } from 'date-fns';
 import useCountries from "@/app/hooks/useCountries";
 import {
     SafeListing,
-    SafeReservation,
     SafeUser
 } from "@/app/types";
 
 import HeartButton from "../HeartButton";
 import Button from "../Button";
 import ClientOnly from "../ClientOnly";
+import { Listing, Reservation } from "@prisma/client";
 
 interface ListingCardProps {
     data: SafeListing;
-    reservation?: SafeReservation;
-    onAction?: (id: string) => void;
+    reservation?: Reservation;
+    onAction?: (id: string) => void
     disabled?: boolean;
     actionLabel?: string;
     actionId?: string;
-    currentUser?: SafeUser | null
-};
+    currentUser?: SafeUser | null;
+}
 
 const ListingCard: React.FC<ListingCardProps> = ({
     data,
