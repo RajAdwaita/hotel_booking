@@ -4,8 +4,10 @@ import Image from 'next/image'
 import ClientOnly from './components/ClientOnly'
 import Container from './components/Container'
 import EmptyState from './components/EmptyState';
-import getListings from './actions/getListings';
-import ListingCard from './components/listing/ListingCard';
+import getListings, {
+  IListingsParams
+} from "@/app/actions/getListings";
+import ListingCard from './components/listings/ListingCard';
 import getCurrentUser from './actions/getCurrentUser';
 
 export default async function Home() {
