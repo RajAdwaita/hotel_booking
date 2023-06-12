@@ -3,7 +3,7 @@
 
 import useSearchModal from "@/app/hooks/useSearchModal";
 import Modal from "./Modal";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import { useSearchParams } from "next/navigation";
 import { useCallback, useMemo, useState } from "react";
 import { Range } from "react-date-range";
