@@ -15,7 +15,7 @@ import {
 import HeartButton from "../HeartButton";
 import Button from "../Button";
 import ClientOnly from "../ClientOnly";
-import { Listing, Reservation } from "@prisma/client";
+// import { Listing, Reservation } from "@prisma/client";
 
 interface ListingCardProps {
     data: SafeListing;
