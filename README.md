@@ -1,4 +1,4 @@
-# AIR BNB CLONE
+# HOTEL BOOKING APPLICATION
 
 ## Description
 
