@@ -40,16 +40,17 @@ A user may set up his residence for rent.
 If someone books your residence, it will display the bookings, and the owner may also delete the listing as per his choice.
 
 ## How we built it ⚒️
-Build using typescript, mongoDB, prisma.
+Build using typescript, mongoDB, Prisma.
 
 ## Challenges we ran into ❌
-
+Setting up the Prisma DB and connecting it to MongoDB for backend functionality, was a bit tough and I am still yet to host the wntire application.
 
 ## Accomplishments that we're proud of 😊
+The whole application is running smoothly on localhost.
 
 ## What we learned 👨‍🔬
-
-
+Using PrismaDB using CLI to set up the backend for this project.
 
 
 ## What's next for Studious ⏭️
+Hosting the application and making it ready for users.
