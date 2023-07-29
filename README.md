@@ -2,13 +2,9 @@
 
 ## Description
 
-A full-stack application that lets you select your desired tourist location and book your stay as per availability.
+A full-stack application that lets you select your desired tourist location and book your stay as per the availability.
 
-<!--- - What was your motivation?
- - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
- - What problem does it solve?
- - What did you learn?
- --->
+
 ## Table of Contents (Optional)
 
 - [Installation](#installation)
@@ -17,25 +13,13 @@ A full-stack application that lets you select your desired tourist location and 
 - [License](#license)
 
 ## Installation
-
+```
 - git clone https://github.com/RajAdwaita/application
 - cd travel
 - npm i --legacy-peer-deps
-
-## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
+```
 
 ## Features
-
-If your project has a lot of features, list them here.
 
 - Login / Signup Facility
 - One can act as the admin through his personal account and at the same time be the customer for the listings hosted by other people.
@@ -45,6 +29,27 @@ If your project has a lot of features, list them here.
 - Cancel your booking anytime you want.
 
 
-## Tests
+## Inspiration 💡
+This application will enable an individual to book their hotels comfortably as per their needs and requirements, for as long as they want and also for a reasonable price, as listed by the owner of the residence.
+An individual may also set up his property for listing so that others may view and book it.
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+## What it does ⚙️
+This application, lets you book a hotel or residence where you wish to stay, for a selected duration, and a price as listed by the owner.
+The location can be anywhere in the world.
+A user may set up his residence for rent.
+If someone books your residence, it will display the bookings, and the owner may also delete the listing as per his choice.
+
+## How we built it ⚒️
+Build using typescript, mongoDB, prisma.
+
+## Challenges we ran into ❌
+
+
+## Accomplishments that we're proud of 😊
+
+## What we learned 👨‍🔬
+
+
+
+
+## What's next for Studious ⏭️
